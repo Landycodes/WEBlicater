@@ -1,5 +1,5 @@
 # WEBlicater
-### [Click here to check it out!](https://dashboard.heroku.com/apps/weblicater)
+### [Click here to check it out!](https://weblicater.herokuapp.com/)
 
 ## summary
 By using plugins with Webpack PWA, and Node.js to run the server, 
