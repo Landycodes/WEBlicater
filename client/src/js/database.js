@@ -39,7 +39,11 @@ export const getDb = async () => {
 
   const result = await request;
   console.log("get DB value", result); ////////////////////////**3 */undefined
-  return result;
+  if (typeof result != "undefined") {
+    return result.content.toString();
+  } else {
+    return result;
+  }
 };
 
 initdb();
